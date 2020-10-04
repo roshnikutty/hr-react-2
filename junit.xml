@@ -1,0 +1,58 @@
+<testsuites name="jest tests" tests="5" failures="4" time="5.041">
+  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2020-10-04T18:44:05" time="5.041" tests="5">
+    <testcase classname=" Testing for cycle length 1" name=" Testing for cycle length 1" time="0.084">
+    </testcase>
+    <testcase classname=" Testing for cycle length 2" name=" Testing for cycle length 2" time="0.016">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 1
+Received: 0
+    at testWithCycleLength (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/src/App.test.js:26:19)
+    at Object.&lt;anonymous&gt; (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/src/App.test.js:41:3)
+    at Object.asyncJestTest (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Testing for cycle length 3" name=" Testing for cycle length 3" time="0.009">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 1
+Received: 0
+    at testWithCycleLength (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/src/App.test.js:26:19)
+    at Object.&lt;anonymous&gt; (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/src/App.test.js:45:3)
+    at Object.asyncJestTest (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Testing for cycle length 7" name=" Testing for cycle length 7" time="0.008">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 1
+Received: 0
+    at testWithCycleLength (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/src/App.test.js:26:19)
+    at Object.&lt;anonymous&gt; (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/src/App.test.js:49:3)
+    at Object.asyncJestTest (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname=" Testing for cycle length 31" name=" Testing for cycle length 31" time="0.018">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 1
+Received: 0
+    at testWithCycleLength (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/src/App.test.js:26:19)
+    at Object.&lt;anonymous&gt; (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/src/App.test.js:53:3)
+    at Object.asyncJestTest (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/roshnikutty/Desktop/hr-react-2/5505349f-bc8d-45ef-a87a-676ed64e0108/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
